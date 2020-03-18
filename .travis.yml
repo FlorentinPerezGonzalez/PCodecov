@@ -5,6 +5,9 @@ node_js:
 before_install:
   - npm i mocha
   - npm i
-  - pip install --user codecov
+  - npm install -g codecov
 after_success:
   - codecov --file coverage/lcov.info --disable search
+script:
+  - npm run test
+  - npm run report-coverage

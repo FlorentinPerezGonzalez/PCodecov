@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc --reporter cover --reporter text npm test"
+    "coverage": "nyc --reporter lcovonly --reporter text npm test"
   },
   "author": "",
   "license": "ISC",
