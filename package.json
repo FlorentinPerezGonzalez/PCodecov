@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha",
     "coverage": "nyc --reporter html --reporter text npm test",
-    "report-coverage": "nyc report --reporter html > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter lcov > coverage.lcov && codecov"
   },
   "author": "",
   "license": "ISC",
