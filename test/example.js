@@ -7,7 +7,8 @@ describe('Operations', function () {
   });
   it ('Should works fine', function() {
     chai.expect(operations(0,2,3)).to.be.equal(5);
-    chai.expect(operations(1,2,3)).to.be.equal(-1);
+    // chai.expect(operations(1,2,3)).to.be.equal(-1);
     chai.expect(operations(2,2,3)).to.be.equal(6);
+    chai.expect(operations(3,4,2)).to.be.equal(2);
   });
 });
